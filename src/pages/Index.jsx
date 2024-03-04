@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Heading, Input, Button, List, ListItem, ListIcon, VStack, HStack, IconButton, useToast } from "@chakra-ui/react";
+import { Box, Heading, Input, Button, List, ListItem, ListIcon, VStack, HStack, IconButton, useToast, Textarea } from "@chakra-ui/react";
 import { FaPlus, FaTrash } from "react-icons/fa";
 
 const Index = () => {
@@ -63,6 +63,12 @@ const Index = () => {
           Random Fact
         </Heading>
         <Box>Did you know? Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still perfectly edible.</Box>
+      </Box>
+      <Box w="100%" p={5} bg="gray.400" borderRadius="md" mt={10}>
+        <Heading size="md" mb={3}>
+          Your Thoughts
+        </Heading>
+        <Textarea placeholder="What's on your mind?" size="sm" />
       </Box>
     </VStack>
   );
