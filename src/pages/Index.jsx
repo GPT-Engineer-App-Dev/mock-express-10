@@ -76,6 +76,12 @@ const Index = () => {
           Cats have five toes on their front paws, but only four toes on their back paws.
         </Box>
       </Box>
+      <Box w="100%" p={5} mt={10} display="flex" flexDirection="column" alignItems="center">
+        <img src="https://placeimg.com/400/300/animals" alt="Monkey" style={{ borderRadius: "md" }} />
+        <Box fontStyle="italic" mt={3}>
+          Monkeys are known to use tools and can learn to use them on their own through observation.
+        </Box>
+      </Box>
     </VStack>
   );
 };
