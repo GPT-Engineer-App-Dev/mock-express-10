@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Navigation from "../components/Navigation";
 import { Box, Heading, Input, Button, List, ListItem, ListIcon, VStack, HStack, IconButton, useToast, Textarea } from "@chakra-ui/react";
 import { FaPlus, FaTrash } from "react-icons/fa";
 
@@ -37,6 +38,7 @@ const Index = () => {
 
   return (
     <VStack p={8}>
+      <Navigation />
       <Heading mb="8">Todo App</Heading>
       <HStack>
         <Input value={inputValue} onChange={handleInputChange} onKeyPress={handleKeyPress} placeholder="Add a new task..." />
