@@ -52,6 +52,18 @@ const Index = () => {
           </ListItem>
         ))}
       </List>
+      <Box w="100%" p={5} bg="gray.200" borderRadius="md" mt={10}>
+        <Heading size="md" mb={3}>
+          Motivational Quote
+        </Heading>
+        <Box fontStyle="italic">"Do not wait to strike till the iron is hot; but make it hot by striking." - William Butler Yeats</Box>
+      </Box>
+      <Box w="100%" p={5} bg="gray.300" borderRadius="md" mt={10}>
+        <Heading size="md" mb={3}>
+          Random Fact
+        </Heading>
+        <Box>Did you know? Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still perfectly edible.</Box>
+      </Box>
     </VStack>
   );
 };
