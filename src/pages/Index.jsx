@@ -70,8 +70,11 @@ const Index = () => {
         </Heading>
         <Textarea placeholder="What's on your mind?" size="sm" />
       </Box>
-      <Box w="100%" p={5} mt={10} display="flex" justifyContent="center">
-        <img src="https://placekitten.com/400/300" alt="Monkey" style={{ borderRadius: "md" }} />
+      <Box w="100%" p={5} mt={10} display="flex" flexDirection="column" alignItems="center">
+        <img src="https://placekitten.com/400/300" alt="Cat" style={{ borderRadius: "md" }} />
+        <Box fontStyle="italic" mt={3}>
+          Cats have five toes on their front paws, but only four toes on their back paws.
+        </Box>
       </Box>
     </VStack>
   );
